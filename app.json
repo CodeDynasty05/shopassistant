@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "ShopAssistant",
+    "slug": "shopassistant",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.codedynasty.shopassistant"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.codedynasty.shopassistant"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4e1f1809-bfed-47fb-9515-508710084fcd"
+      }
+    },
+    "owner": "codedynasty",
+    "updates": {
+      "url": "https://u.expo.dev/4e1f1809-bfed-47fb-9515-508710084fcd"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
